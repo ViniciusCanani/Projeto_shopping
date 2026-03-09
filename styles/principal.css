@@ -1,0 +1,70 @@
+/*  ESTILOS DE CONTAINER  */
+
+.container_inicial {
+  width: 100%;
+  background-color: #ffe636;
+
+  display: flex;
+  flex-direction: column; /*vai deixar um em baixo do outro*/
+  align-items: center;
+  /*vai alinhar os elementos na vertical no centro*/
+  justify-content: center;
+  /*vai alinhar os elementos na horizontal no centro*/
+  padding: 20px;
+}
+
+.container_inicial h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #1a1a2e;
+  margin-bottom: 20px;
+}
+
+.container_inicial p {
+  margin-bottom: 10px;
+}
+
+/* Estilos do menu */
+
+.menu {
+  width: 100%;
+  height: 64px;
+  background-color: #181d36;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.logo_name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffe739;
+}
+
+.menu ul {
+  font-size: 18px;
+  color: #fff;
+
+  display: flex;
+  gap: 10px;
+}
+
+.carrinho_icone_container {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_direita_menu {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
