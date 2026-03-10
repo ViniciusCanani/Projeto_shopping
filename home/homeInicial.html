@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/main.css" />
 
@@ -46,12 +46,41 @@
 
         }
 
-        .containerMenuDireita{
+        .containerMenuDireita {
             display: flex;
             gap: 10px;
             align-items: center;
         }
-        
+
+        .containerProdutos {
+            width: 200px;
+            background-color: rgb(148, 148, 148);
+
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            gap: 10px;
+        }
+
+        .containerImagem{
+
+            background-color: #ffe739;
+            display: flex;
+            padding: 0px 10px;
+            height: auto;
+        }
+
+        .imagemCarta {
+            width: 100%;
+        }
+
+        .textoProdutos{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
     </style>
 </head>
 
@@ -80,6 +109,21 @@
         <p>Encontre as melhores cartas para sua coleção.</p>
         <button>Explorar</button>
 
+    </div>
+
+
+    <div class="containerProdutos">
+        <div class="containerImagem">
+            <img src="https://images.ygoprodeck.com/images/cards/46986414.jpg" class="imagemCarta" />
+        </div>
+
+        <Div class="textoProdutos">
+        <h3>Dark Magician</h3>
+        <spam>ULTRA RARO</spam>
+        <p>O mago mais iconico do Yu-Gi-Oh!</p>
+        <span>$120.00</span>
+        <button>Adicionar ao carrinho</button>
+        </Div>
     </div>
 
 
