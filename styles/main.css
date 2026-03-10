@@ -1,0 +1,26 @@
+/* Estilos de containers */
+
+
+.container_principal {
+    width: 100%;
+    background-color: #ffe636;
+
+    display: flex;
+    flex-direction: column;
+    /*vai deixar um em baixo do outro*/
+    align-items: center;
+    /*vai alinhar os elementos na vertical no centro*/
+    justify-content: center;
+    /*vai alinhar os elementos na horizontal no centro*/
+
+
+    padding: 20px;
+}
+
+.container_principal h1 {
+
+    font-size: 34px;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+}
